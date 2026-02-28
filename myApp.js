@@ -1,6 +1,7 @@
 require('dotenv').config()
 let express = require('express');
 let app = express();
+console.log("Hello World")
 
 app.get('/json', function(req, res) {
   let message = "Hello json"
